@@ -12,7 +12,7 @@ def parse_args():
     parser.add_argument('--epoch', type=int, default=200, help='The number of epochs to run')
     parser.add_argument('--batch_size', type=int, default=1, help='The size of batch')
 
-    parser.add_argument('--lr', type=float, default=0.0001, help='The learning rate')
+    parser.add_argument('--lr', type=float, default=0.0002, help='The learning rate')
     parser.add_argument('--GAN_weight', type=float, default=10.0, help='Weight about GAN, lambda0')
     parser.add_argument('--KL_weight', type=float, default=0.1, help='Weight about VAE, lambda1')
     parser.add_argument('--L1_weight', type=float, default=100.0, help='Weight about VAE, lambda2' )

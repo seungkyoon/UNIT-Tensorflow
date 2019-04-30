@@ -362,7 +362,7 @@ class UNIT(object):
                 start_batch_id = 0
 
                 # save model
-                self.save(self.checkpoint_dir, counter)
+                # self.save(self.checkpoint_dir, counter)
 
             # save model for final step
             self.save(self.checkpoint_dir, counter)
